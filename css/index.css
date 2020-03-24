@@ -1,0 +1,282 @@
+.box-show {
+  -webkit-box-shadow: 0px 0px 8px #000;
+  box-shadow: 0px 0px 8px #000;
+}
+html,
+body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+}
+body {
+  margin: 0px;
+  padding: 0px;
+  width: 100%;
+  background: #fff;
+  font: normal 12px/22px 'Microsoft YaHei', '微软雅黑', '宋体', Verdana, Tahoma, Arial, Helvetica,
+    sans-serif;
+  color: #fff;
+  -webkit-text-size-adjust: none;
+}
+/* 重置 */
+html,
+body,
+div,
+p,
+ul,
+li,
+dl,
+dt,
+dd,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+form,
+input,
+select,
+button,
+textarea,
+iframe,
+table,
+th,
+td {
+  margin: 0;
+  padding: 0;
+}
+/* 标题样式 */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-size: 14px;
+}
+img {
+  border: 0 none;
+}
+/* 列表样式 */
+ul,
+ol,
+li {
+  list-style: none;
+}
+/* 图片样式 */
+img,
+a img {
+  border: 0px;
+  padding: 0px;
+  margin: 0px;
+  vertical-align: middle;
+}
+button {
+  cursor: pointer;
+}
+
+a:link,
+a:visited {
+  color: #222;
+  text-decoration: none;
+}
+a:active,
+a:hover {
+  color: #000;
+  text-decoration: none;
+}
+a:focus {
+  outline: none;
+}
+
+header {
+  width: 100%;
+  height: 94px;
+  background: url(../imgs/header_bg.jpg);
+  border-bottom: 2px solid #ccc;
+}
+.h-content {
+  width: 1000px;
+  height: 94px;
+  margin: 0 auto;
+}
+
+.logo {
+  padding-top: 7px;
+}
+.logo img {
+  width: 80px;
+  float: left;
+  margin-left: 21px;
+}
+.logo .logo-png {
+  width: 226px;
+  height: 50px;
+  padding-top: 15px;
+}
+.tel {
+  width: 318px;
+  /* height: 36px; */
+  float: left;
+  margin-left: 150px;
+  margin-top: 35px;
+}
+.wxqq {
+  position: relative;
+  float: left;
+  margin: 30px 0 0 88px;
+}
+.wxqq img {
+  cursor: pointer;
+}
+.wxqq img.wx-icon {
+  margin-right: 5px;
+}
+.wechat,
+.qq {
+  position: relative;
+  float: left;
+}
+.wechat:hover .QR-code,
+.qq:hover .QR-code {
+  display: block;
+}
+.QR-code {
+  position: absolute;
+  left: -40px;
+  top: 50px;
+  display: none;
+}
+.QR-code img {
+  width: 121px;
+}
+
+.banner {
+  width: 100%;
+  height: 456px;
+}
+.nav {
+  width: 100%;
+  height: 140px;
+  background: url(../imgs/nav_bg.png) center no-repeat;
+  position: absolute;
+  left: 0px;
+  top: 425px;
+}
+.nav1 {
+  width: 1000px;
+  height: 40px;
+  line-height: 40px;
+  margin: 0 auto;
+  margin-top: 65px;
+}
+.nav1 a {
+  width: 110px;
+  height: 40px;
+  text-align: center;
+  color: #fff;
+  display: block;
+}
+.nav1 li {
+  float: left;
+}
+.nav1 a:link {
+  color: #fff;
+  display: block;
+}
+.nav1 a:visited {
+  display: block;
+  color: #fff;
+}
+.nav1 a:hover {
+  color: #cf3;
+  background: url(../imgs/nav_a.png) center no-repeat;
+}
+
+.main {
+  width: 100%;
+  padding: 52px 0;
+
+  background: #570809 url(../imgs/bg.jpg) center top repeat-x;
+}
+.m-content {
+  width: 1000px;
+  margin: 0 auto;
+}
+
+.product {
+  width: 1000px;
+  height: 265px;
+  background: url(../imgs/product_bg.jpg);
+}
+.pro_title {
+  width: 40px;
+  width: 980px;
+  float: left;
+  line-height: 40px;
+  text-align: right;
+  padding-right: 20px;
+  color: #fff;
+}
+.product a {
+  text-decoration: none;
+  color: #fff;
+}
+.pro_jt {
+  width: 32px;
+  height: 67px;
+  float: left;
+  margin-top: 75px;
+}
+.pro_img {
+  width: 915px;
+  height: 190px;
+  float: left;
+  padding-top: 35px;
+}
+.pro_img li {
+  width: 202px;
+  height: 171px;
+  float: left;
+  margin-left: 18px;
+}
+.pro_img li div {
+  width: 202px;
+  height: 141px;
+  border: 3px solid #ccc;
+}
+.t1 {
+  width: 208px;
+  height: 30px;
+  line-height: 30px;
+  text-align: center;
+}
+
+/* footer */
+
+footer {
+  width: 100%;
+  height: 100px;
+  background: #ee0979; /* fallback for old browsers */
+  background: -webkit-linear-gradient(to top, #ff6a00, #ee0979); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to top,
+    #ee0979,
+    #ff6a00
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+.f-content {
+  width: 1000px;
+  padding-top: 21px;
+  margin: 0 auto;
+  text-align: center;
+  color: #fff;
+  font-size: 21px;
+}
+.Copyright {
+  font-size: 15px;
+  line-height: 21px;
+  padding: 21px 0;
+}
